@@ -24,7 +24,7 @@
       (iter a (- b 1) (+ product a))))
   (iter a b 0))
 
-#! 迭代对数步求乘积
+#! 迭代对数步求乘积，我是根据线性步推导出来的！
 (define (fast-mul-iter a b)
   (define (iter a b product)
     (cond ((= b 0) product)
